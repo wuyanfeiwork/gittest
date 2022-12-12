@@ -1,7 +1,7 @@
 #!/bin/bash
 OSVersion=$(rpm -q centos-release | cut -d - -f 3)
 
-function InfoLog() {
+#function InfoLog() {
     echo "$(date +"%Y-%m-%d %H:%M:%S") INFO: $1"
 }
 
